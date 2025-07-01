@@ -3,7 +3,7 @@ const fs = require('fs');
 const { console } = require('inspector');
 const path = require('path'); // Importa el módulo 'path'
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 // Sirve archivos estáticos desde la carpeta 'public'
 app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req, res) => {
