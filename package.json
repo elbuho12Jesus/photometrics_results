@@ -1,5 +1,23 @@
 {
-"scripts": {
-        "start": "node server.js"
-           }
+  "name": "table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elbuho12Jesus/photometrics_results.git"
+  },
+  "author": "Jesus Adrian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elbuho12Jesus/photometrics_results/issues"
+  },
+  "homepage": "https://github.com/elbuho12Jesus/photometrics_results#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
